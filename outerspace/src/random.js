@@ -19,7 +19,7 @@ axios.get('https://code.diegopeixoto.net/outerspace/src/topics.json')
   function abrirTopico(link) {
     $.ajax({
       url: link,
-      method: 'POST',
+      method: 'GET',
       succes: function (data) {
         $('#content').html(data);
       }
