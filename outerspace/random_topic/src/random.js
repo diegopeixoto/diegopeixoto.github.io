@@ -1,4 +1,4 @@
-axios.get('https://code.diegopeixoto.net/outerspace/src/topics.json')
+axios.get('https://code.diegopeixoto.net/outerspace/random_topic/src/topics.json')
   .then(function (response) {
         var topicos = response.data.topicos;
         gerarTopicoAleatorio(topicos);
