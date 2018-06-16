@@ -17,25 +17,15 @@ axios.get('https://code.diegopeixoto.net/outerspace/src/topics.json')
 
 
   function abrirTopico(link) {
-    $.ajax({
-      url: link,
-      method: 'GET',
-      succes: function (data) {
-        $('#content').html(data);
-      }
-    })
-  }
 
-  // function abrirUrlAjax(link){
-    
-  //   $.ajax({ 
-  //    url: link,
-  //     method: 'GET',      
-  //   success: function (data) {
-  //      setTimeout(function() { 
-  //             $('#content').html(data);
-         
-  //    });  
-               
-         
-  //   }
+    window.location.href = link;
+
+    /// OUTERSPACE NÃO SUPORTA REQUEST VIA AJAX
+    // $.ajax({
+    //   url: link,
+    //   method: 'GET',
+    //   succes: function (data) {
+    //     $('#content').html(data);
+    //   }
+    // })
+  }
