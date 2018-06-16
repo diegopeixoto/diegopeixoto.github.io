@@ -5,6 +5,7 @@ axios.get('https://code.diegopeixoto.net/outerspace/src/topics.json')
     
   })
   .catch(function (error) {
+    alert (error);
     console.log(error);
   });
 
