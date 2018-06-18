@@ -11,8 +11,10 @@ axios.get('https://code.diegopeixoto.net/outerspace/random_topic/src/topics.json
 
 
   function gerarTopicoAleatorio(topicos) {
+      console.log ('Achamos esses tópicos: '+topicos);
       const topico = Math.round(Math.random() * (topicos.length - 1));
-    abrirTopico('https://'+topicos[topico].link);      
+      console.log ('Vamos abrir este tópico aqui:'+topicos[topico].link);
+      abrirTopico('topicos[topico].link);      
   }
 
 
