@@ -1,6 +1,6 @@
 {
-    "Universidades_Faculdades": {
-        BA :  [
+    "universidades":
+        [
             "(CESUPI) CENTRO DE ENSINO SUPERIOR DE ILHÉUS",
             "(CS. MEDICAS) FACULDADE DE CIÊNCIAS MÉDICAS DA BAHIA",
             "(EBMSP) ESCOLA BAHIANA DE MEDICINA E SAÚDE PÚBLICA",
@@ -89,6 +89,5 @@
             "(UNISULBAHIA) FACULDADES INTEGRADAS DO EXTRAMO SUL DA BAHIA",
             "(UNIVASF) UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO",
             "(UNIVASF) UNIVERSIDADE FEDERAL DO VALE DO SÃO FRANCISCO"
-        ]
-    }
+        ]   
 }
